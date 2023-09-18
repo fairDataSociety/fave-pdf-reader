@@ -1,6 +1,6 @@
 ## fave-pdf-reader
 
-This is a demo application for Fave intigrated with langchain
+This is a demo application for Fave intigrated with langchain. You can upload any pdf file and embed the content in FaVe. Also you can ask questions once the upload is finished. 
 
 ## Prerequirements
 
@@ -30,6 +30,3 @@ NOTE: Please update the required details to run FaVe in the docker compose file.
 - You have to get `HUGGINGFACEHUB_API_TOKEN` from here `https://huggingface.co/docs/hub/security-tokens`
 - Rename `.env.example` file to `.env` and paste the token. `HUGGINGFACEHUB_API_TOKEN=<TOKEN>`
 - Run `streamlit run app.py`.
-
-
-Once this demo is running, you can upload any pdf file and embed the content in FaVe. Also you can ask questions once the upload is finished. 
